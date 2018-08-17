@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Hlt11w/kEPhvuCfiT+gUu2v0Myp29tKCt+Foq8/ZhA+veET8iNW82kCBHJbBEM+fWFprGeqwDwC/Ko6bKy7ByX2QeGrdAhtg1s1whXndYO1zrynobO9gbm8vdVeYbkytqod64B14fpQrynnHEumbTq33nFDTCif0REjSbcRMb21p1hUjNahamSSQ9EdW1kmXFInbZuWe85ap6YkaQg8MGxg7ICYYlu4yCICDifCyI10LKeHRzC/9mur7Z4E8s8Zc+WCPEC3SRtPBT/PuFLDvC9T7qDdSFGA3Rz+uibIlxtxbyFCTX/pFtwOpRpkmsLlbsnQCL6bOwcbB0ifaWxzk3Q8HuskvEEZGXTxp0IJsAs+HQWPAZHd4gUB/ZP8+B/7N6aZX/tA4cOr9Aw07OWD6k66p0tmqlTggQVZBBj2Z2PLrX+qkChJ8CNdi19xe2XvSRKpTHwOTWASUYhMLi4sAAo1FPFqBV6dbhJLs/3FqEWYMSRUXr/I7MMi1oCULU2udvwUnYwj+txGgK1bR28VYY4NxJcqkzqQUIr92rFGmH626udzt/U/K+ccT+rEu1wU8mLa7CRtCLxCNzaIv1jIQzytzlrTAp5vhetg0hqjElrWbQ3rQCVpVc1ZKsy+7syifNrPpJPcuQwwkCbQS7EGfYgy1Z4d8XgVAWMVXhSga/ds=
+  app: https://young-thicket-28957.herokuapp.com/
+  on:
+    repo: MartinTirtawisata/node-shopping-list-integration-tests
